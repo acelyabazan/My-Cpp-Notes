@@ -22,7 +22,7 @@ int main() {
 		std::cout << stok << " adet stoğunuz bulunmaktadır. 0 veya 0'dan az stoğunuz bulunamaz!";
 
 		// Bu kod çok verimli değil fakat daha çok bilgim olmadığı için kullanmak durumunda kaldım.
-		exit(1);
+		exit(EXIT_FAILURE);
 	}
 
 	std::cout << "İşlem numarasını giriniz: ";
