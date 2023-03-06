@@ -21,6 +21,25 @@ int main() {
         float ortalama = ortalamaToplam / 3;
         
         std::cout << "3 sınavınızın ortalaması: " << ortalama << std::endl;
+        
+        if (ortalama >= 50) {
+            std::cout << "Dereceniz: C+" << std::endl;
+        }
+        else if (ortalama >= 65) {
+            std::cout << "Dereceniz: B" << std::endl;
+        }
+        else if (ortalama >= 75) {
+            std::cout << "Dereceniz: B+" << std::endl;
+        }
+        else if (ortalama >= 85) {
+            std::cout << "Dereceniz: A" << std::endl;
+        }
+        else if (ortalama >= 95) {
+            std::cout << "Dereceniz: A+" << std::endl;
+        }
+        else {
+            std::cout << "Ortalamanız sınıf atlamanız için yeterli değil, kaldınız!" << std::endl;
+        }
     }
     return 0;
 }
